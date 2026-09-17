@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background: #ffffff;
+}
+
+header {
+    background: #0f2742;
+    color: white;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    min-height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background: #f3f6f9;
+}
+
+.hero h2 {
+    font-size: 46px;
+    max-width: 850px;
+    margin-bottom: 20px;
+    color: #0f2742;
+}
+
+.hero p {
+    font-size: 21px;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    background: #0f2742;
+    color: white;
+}
+
+.btn-secondary {
+    background: #e8a317;
+    color: #111;
+}
+
+section {
+    padding: 70px 8%;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 35px;
+    color: #0f2742;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 26px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.card h3 {
+    margin-bottom: 12px;
+    color: #0f2742;
+}
+
+.steps {
+    max-width: 800px;
+    margin: auto;
+}
+
+.steps li {
+    margin-bottom: 14px;
+    font-size: 18px;
+}
+
+.about,
+.contact {
+    background: #f3f6f9;
+    text-align: center;
+}
+
+footer {
+    background: #0f2742;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.booking-page {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.booking-page h2 {
+    text-align: center;
+    color: #0f2742;
+    margin-bottom: 10px;
+}
+
+.booking-page p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    .hero h2 {
+        font-size: 34px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+}
