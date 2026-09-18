@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Request a Quote | 521-SHIP</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>521-SHIP</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="booking.html">Book a Pickup</a>
+        </nav>
+    </header>
+
+    <main class="booking-page">
+
+        <h2>Request a Shipping Quote</h2>
+
+        <p>
+            Tell us what you need shipped and we will contact you with pricing
+            and next steps.
+        </p>
+
+        <form>
+
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="pickup">Pickup Location</label><br>
+            <input type="text" id="pickup" name="pickup"><br><br>
+
+            <label for="destination">Destination</label><br>
+            <input type="text" id="destination" name="destination" required><br><br>
+
+            <label for="items">What are you shipping?</label><br>
+            <textarea id="items" name="items" rows="5" required></textarea><br><br>
+
+            <label for="quantity">Approximate number of items</label><br>
+            <input type="number" id="quantity" name="quantity" min="1"><br><br>
+
+            <label for="notes">Additional details</label><br>
+            <textarea id="notes" name="notes" rows="4"></textarea><br><br>
+
+            <button type="submit" class="btn">
+                Submit Quote Request
+            </button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 521-SHIP. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
