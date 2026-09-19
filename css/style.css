@@ -26,14 +26,16 @@ body {
 }
 
 header {
-    background: #0f2742;
-    color: white;
+    background: #ffffff;
+    color: #0f2742;
     padding: 14px 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
+    border-bottom: 1px solid #dddddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 header h1 {
@@ -41,7 +43,7 @@ header h1 {
 }
 
 nav a {
-    color: white;
+    color: #0f2742;
     text-decoration: none;
     margin-left: 20px;
     font-weight: 600;
@@ -49,6 +51,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    color: #e8a317;
 }
 
 .hero {
