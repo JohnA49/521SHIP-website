@@ -71,13 +71,13 @@ nav a:hover {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(15, 39, 66, 0.68);
+    background: rgba(15, 39, 66, 0.58);
 }
 
 .hero-content {
     position: relative;
     z-index: 2;
-    max-width: 850px;
+    max-width: 950px;
     color: white;
 }
 
@@ -91,7 +91,7 @@ nav a:hover {
 
 .hero h2 {
     font-size: 52px;
-    line-height: 1.15;
+    line-height: 1.12;
     margin-bottom: 20px;
     color: white;
 }
@@ -112,9 +112,10 @@ nav a:hover {
 
 .button-group {
     display: flex;
-    gap: 15px;
+    gap: 18px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .btn {
