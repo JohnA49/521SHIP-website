@@ -152,6 +152,7 @@ footer {
     margin-bottom: 30px;
 }
 
+
 .contact-buttons {
     display: flex;
     justify-content: center;
@@ -164,7 +165,6 @@ footer {
     background: #25D366;
     color: white;
 }
-
 
 @media (max-width: 700px) {
 
