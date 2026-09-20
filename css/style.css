@@ -386,20 +386,21 @@ section h2 {
 
 .contact-actions {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    max-width: 1000px;
-    margin: 0 auto 35px;
+    grid-template-columns: repeat(3, minmax(220px, 300px));
+    gap: 18px;
+    justify-content: center;
+    max-width: 980px;
+    margin: 0 auto 30px;
 }
 
 .contact-action {
     display: flex;
     align-items: center;
-    gap: 18px;
-    padding: 22px;
+    gap: 16px;
+    padding: 16px 20px;
     background: #f7f9fb;
     border: 1px solid #dde4ea;
-    border-radius: 12px;
+    border-radius: 10px;
     text-decoration: none;
     color: #0f2742;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -418,18 +419,19 @@ section h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    font-size: 22px;
     color: #0f2742;
 }
 
 .contact-action strong {
     display: block;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .contact-action small {
     display: block;
     margin-top: 3px;
+    font-size: 13px
     color: #596573;
 }
 
