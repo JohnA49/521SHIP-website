@@ -129,8 +129,8 @@ nav a:hover {
 }
 
 .btn-secondary {
-    background: #e8a317;
-    color: #111;
+      background: #1F8A8A;
+    color: white;
 }
 
 section {
@@ -156,7 +156,7 @@ section h2 {
 }
 
 .section-kicker {
-    color: #d99200;
+    color: #1F8A8A;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
