@@ -203,13 +203,12 @@ section h2 {
     height: 42px;
     margin: 0 auto 16px;
     border-radius: 50%;
-    background: #e8a317;
-    color: #111;
+    background: #1F8A8A;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 20px;
 }
 
 .why-card h3 {
