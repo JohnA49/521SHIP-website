@@ -151,7 +151,7 @@ section h2 {
 
 .section-heading {
     max-width: 750px;
-    margin: 0 auto 45px;
+    margin: 0 auto 35px;
     text-align: center;
 }
 
@@ -228,7 +228,7 @@ section h2 {
 
 .how-section {
     background: #ffffff;
-    padding: 80px 8%;
+    padding: 60px 8%;
 }
 
 .how-grid {
@@ -242,7 +242,7 @@ section h2 {
 .how-card {
     position: relative;
     text-align: center;
-    padding: 34px 24px;
+    padding: 28px 24px;
     border-radius: 12px;
     background: #f7f9fb;
     border: 1px solid #e1e6eb;
