@@ -442,39 +442,41 @@ section h2 {
 .site-footer {
     background: #0f2742;
     color: white;
-    padding: 45px 8% 20px;
+    padding: 24px 8% 12px;
 }
 
 .footer-grid {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 28px;
     max-width: 1200px;
     margin: auto;
 }
 
 .footer-logo {
-    height: 80px;
+    height: 62px;
     width: auto;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 }
 
 .footer-brand p {
-    max-width: 320px;
-    line-height: 1.7;
+    max-width: 300px;
+    line-height: 1.5;
     color: #d8e0e8;
+    margin: 0;
 }
 
 .footer-links h3 {
-    font-size: 17px;
-    margin-bottom: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
+
 
 .footer-links a {
     display: block;
     color: #d8e0e8;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .footer-links a:hover {
@@ -483,15 +485,12 @@ section h2 {
 
 .footer-bottom {
     max-width: 1200px;
-    margin: 35px auto 0;
-    padding-top: 20px;
+    margin: 20px auto 0;
+    padding-top: 14px;
     border-top: 1px solid rgba(255,255,255,0.15);
     text-align: center;
     color: #c4ccd4;
 }
-
-
-
 
 
 
