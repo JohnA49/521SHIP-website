@@ -379,6 +379,122 @@ section h2 {
     text-align: center;
 }
 
+.contact-section {
+    background: #ffffff;
+    padding: 70px 8%;
+}
+
+.contact-actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 1000px;
+    margin: 0 auto 35px;
+}
+
+.contact-action {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 22px;
+    background: #f7f9fb;
+    border: 1px solid #dde4ea;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #0f2742;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-action:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(15, 39, 66, 0.10);
+}
+
+.contact-action-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #e8a317;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.contact-action strong {
+    display: block;
+    font-size: 18px;
+}
+
+.contact-action small {
+    display: block;
+    margin-top: 3px;
+    color: #596573;
+}
+
+.contact-cta {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.site-footer {
+    background: #0f2742;
+    color: white;
+    padding: 55px 8% 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-logo {
+    height: 65px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.footer-brand p {
+    max-width: 320px;
+    line-height: 1.7;
+    color: #d8e0e8;
+}
+
+.footer-links h3 {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    display: block;
+    color: #d8e0e8;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-links a:hover {
+    color: #e8a317;
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 35px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    text-align: center;
+    color: #c4ccd4;
+}
+
+
+
+
+
+
 footer {
     background: #0f2742;
     color: white;
@@ -416,6 +532,11 @@ footer {
     background: #25D366;
     color: white;
 }
+
+
+
+
+
 
 @media (max-width: 700px) {
 
@@ -500,5 +621,21 @@ nav a {
     .about-story h3 {
         font-size: 24px;
     }
-    
+
+.contact-actions {
+    grid-template-columns: 1fr;
+}
+
+.contact-section {
+    padding: 60px 20px;
+}
+
+.footer-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.site-footer {
+    padding: 45px 20px 20px;
+}   
 }
