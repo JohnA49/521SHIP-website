@@ -567,7 +567,23 @@ footer {
     font-size: 14px;
 }
 
+.contact-action-icon i,
+.how-icon i,
+.why-icon i {
+    line-height: 1;
+}
 
+.how-icon {
+    color: #0f2742;
+    font-size: 36px;
+}
+
+.contact-action-icon {
+    color: #0f2742;
+}
+.fa-whatsapp {
+    color: #25D366;
+}
 
 @media (max-width: 700px) {
 
