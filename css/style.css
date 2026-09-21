@@ -456,16 +456,23 @@ section h2 {
 }
 
 .footer-logo {
+    display: block;
     height: 62px;
     width: auto;
-    margin-bottom: 10px;
+    margin: 0 auto 10px;
+}
+
+.footer-brand {
+    max-width: 320px;
+    text-align: center;
 }
 
 .footer-brand p {
-    max-width: 300px;
+    max-width: 320px;
+    margin: 0;
     line-height: 1.5;
     color: #d8e0e8;
-    margin: 0;
+    text-align: center;
 }
 
 .footer-links h3 {
