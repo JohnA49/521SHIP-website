@@ -616,19 +616,6 @@ footer {
     overflow-y: auto;
 }
 
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 85px;
-}
-
-#home,
-#services,
-#how-it-works,
-#about,
-#contact {
-    scroll-margin-top: 85px;
-}
-
 
 @media (max-width: 700px) {
 
