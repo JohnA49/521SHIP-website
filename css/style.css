@@ -37,6 +37,9 @@ header {
     gap: 15px;
     border-bottom: 1px solid #dddddd;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
  h1 {
@@ -606,6 +609,11 @@ footer {
     color: #0f2742;
     font-size: 24px;
     cursor: pointer;
+}
+
+.main-nav.active {
+    max-height: calc(100dvh - 70px);
+    overflow-y: auto;
 }
 
 @media (max-width: 700px) {
