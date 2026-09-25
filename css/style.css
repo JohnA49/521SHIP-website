@@ -618,20 +618,27 @@ footer {
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 80px;
-}
+    }
 
 #services,
 #how-it-works,
 #about,
 #contact {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 75px;
 }
 
 
 
 @media (max-width: 700px) {
 
+    #services,
+#how-it-works,
+#about,
+#contact {
+    scroll-margin-top: 58px;
+}
+
+    
     header {
         padding: 8px 18px;
         gap: 8px;
