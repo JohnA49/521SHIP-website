@@ -627,6 +627,91 @@ html {
     scroll-margin-top: 0;
 }
 
+/* 521-SHIP QUOTE FORM */
+
+.quote-form {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 35px;
+    background: #ffffff;
+    border: 1px solid #e0e7ed;
+    border-radius: 14px;
+    box-shadow: 0 8px 30px rgba(15,39,66,0.07);
+}
+
+.quote-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0f2742;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccd6df;
+    border-radius: 8px;
+    font: inherit;
+    font-size: 15px;
+    background: #f9fbfc;
+    color: #0f2742;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #1F8A8A;
+    box-shadow: 0 0 0 3px rgba(31,138,138,0.15);
+    background: white;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.full-width {
+    grid-column: 1 / -1;
+}
+
+.quote-submit {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 28px;
+}
+
+.quote-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px 26px;
+    background: #1F8A8A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.quote-button:hover {
+    background: #176b6b;
+}
+
+
 
 
 @media (max-width: 700px) {
@@ -637,8 +722,26 @@ html {
 #contact {
     scroll-margin-top: 58px;
 }
+--
+.quote-form {
+    padding: 22px 18px;
+}
 
-    
+.quote-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+}
+
+.full-width {
+    grid-column: auto;
+}
+
+.quote-button {
+    width: 100%;
+}
+
+--
+ 
     header {
         padding: 8px 18px;
         gap: 8px;
