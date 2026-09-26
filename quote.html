@@ -54,38 +54,80 @@
             and next steps.
         </p>
 
-        <form action="https://formspree.io/f/mgavvdrb" method="POST">
-            <input type="hidden" name="_subject" value="New 521-SHIP Quote Request">
 
-            <label for="name">Full Name</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+        
+      <form
+    class="quote-form" action="https://formspree.io/f/mgavvdrb" method="POST">
+    <input
+        type="hidden"
+        name="_subject"
+        value="New 521-SHIP Quote Request"
+    >
 
-            <label for="phone">Phone Number</label><br>
-            <input type="tel" id="phone" name="phone" required><br><br>
+    <div class="quote-grid">
 
-            <label for="email">Email Address</label><br>
-            <input type="email" id="email" name="email" required><br><br>
+        <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Your full name" required>
+        </div>
 
-            <label for="pickup">Pickup Location</label><br>
-            <input type="text" id="pickup" name="pickup"><br><br>
+        <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="Your phone number" required>
+        </div>
 
-            <label for="destination">Destination</label><br>
-            <input type="text" id="destination" name="destination" required><br><br>
+        <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email"
+                   placeholder="you@example.com" required>
+        </div>
 
-            <label for="items">What are you shipping?</label><br>
-            <textarea id="items" name="items" rows="5" required></textarea><br><br>
+        <div class="form-group">
+            <label for="pickup">Pickup Location</label>
+            <input type="text" id="pickup" name="pickup"
+                   placeholder="City, State">
+        </div>
 
-            <label for="quantity">Approximate number of items</label><br>
-            <input type="number" id="quantity" name="quantity" min="1"><br><br>
+        <div class="form-group">
+            <label for="destination">Destination *</label>
+            <input type="text" id="destination"
+                   name="destination"
+                   placeholder="City, Country" required>
+        </div>
 
-            <label for="notes">Additional details</label><br>
-            <textarea id="notes" name="notes" rows="4"></textarea><br><br>
+        <div class="form-group">
+            <label for="quantity">Number of Items</label>
+            <input type="number" id="quantity"
+                   name="quantity" min="1"
+                   placeholder="Approximate quantity">
+        </div>
 
-            <button type="submit" class="btn">
-                Submit Quote Request
-            </button>
+        <div class="form-group full-width">
+            <label for="items">What Are You Shipping? *</label>
+            <textarea id="items" name="items"
+                      rows="4" required
+                      placeholder="Describe your items, dimensions and approximate weight"></textarea>
+        </div>
 
-        </form>
+        <div class="form-group full-width">
+            <label for="notes">Additional Details</label>
+            <textarea id="notes" name="notes"
+                      rows="3"
+                      placeholder="Any special instructions or questions?"></textarea>
+        </div>
+
+    </div>
+
+    <div class="quote-submit">
+        <button type="submit" class="quote-button">
+            Submit Quote Request
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+    </div>
+
+</form>
 
     </main>
 
