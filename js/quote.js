@@ -34,9 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (!otherCheckbox.checked) {
             otherItems.value = "";
-            document.getElementById(
-                "item-dimensions"
-            ).value = "";
         }
     }
 
