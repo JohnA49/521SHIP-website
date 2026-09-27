@@ -104,12 +104,66 @@
                    placeholder="Approximate quantity">
         </div>
 
-        <div class="form-group full-width">
-            <label for="items">What Are You Shipping? *</label>
-            <textarea id="items" name="items"
-                      rows="4" required
-                      placeholder="Describe your items, dimensions and approximate weight"></textarea>
-        </div>
+  <div class="form-group full-width shipping-options">
+    <label>What Are You Shipping? *</label>
+
+    <div class="shipping-choices">
+
+        <label class="shipping-choice">
+            <input type="checkbox"
+                   name="shipping_type"
+                   value="U-Haul Boxes">
+            <span>U-Haul Boxes</span>
+        </label>
+
+        <label class="shipping-choice">
+            <input type="checkbox"
+                   name="shipping_type"
+                   value="Boxes">
+            <span>Boxes</span>
+        </label>
+
+        <label class="shipping-choice">
+            <input type="checkbox"
+                   name="shipping_type"
+                   value="Barrels">
+            <span>Barrels</span>
+        </label>
+
+        <label class="shipping-choice">
+            <input type="checkbox"
+                   name="shipping_type"
+                   value="Other"
+                   id="shipping-other">
+            <span>Other</span>
+        </label>
+
+    </div>
+
+    <div id="other-shipping-details"
+         class="other-shipping-details"
+         hidden>
+
+        <label for="other-items">
+            Describe Your Items
+        </label>
+
+        <textarea id="other-items"
+                  name="other_items"
+                  rows="3"
+                  placeholder="What are you shipping?"></textarea>
+
+        <label for="item-dimensions">
+            Dimensions (Optional)
+        </label>
+
+        <input type="text"
+               id="item-dimensions"
+               name="item_dimensions"
+               placeholder="Length × Width × Height">
+
+    </div>
+</div>
 
         <div class="form-group full-width">
             <label for="notes">Additional Details</label>
