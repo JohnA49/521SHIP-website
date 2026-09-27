@@ -711,10 +711,53 @@ html {
     background: #176b6b;
 }
 
+.shipping-choices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 8px;
+}
 
+.shipping-choice {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    border: 1px solid #ccd6df;
+    border-radius: 8px;
+    background: #f9fbfc;
+    cursor: pointer;
+}
+
+.shipping-choice:has(input:checked) {
+    border-color: #1F8A8A;
+    background: #edf7f7;
+}
+
+.shipping-choice input {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    accent-color: #1F8A8A;
+}
+
+.other-shipping-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.other-shipping-details[hidden] {
+    display: none;
+}
 
 
 @media (max-width: 700px) {
+
+    .shipping-choices {
+    grid-template-columns: 1fr;
+}
 
     #services,
 #how-it-works,
